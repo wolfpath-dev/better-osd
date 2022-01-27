@@ -1,0 +1,18 @@
+The settings of extension better-osd@hllvc had an error:
+```
+TypeError: hBox.prepend is not a function
+```
+
+Stack trace:
+```
+_init@/home/dev/.local/share/gnome-shell/extensions/better-osd@hllvc/prefs.js:55:12
+buildPrefsWidget@/home/dev/.local/share/gnome-shell/extensions/better-osd@hllvc/prefs.js:201:10
+_init@resource:///org/gnome/Shell/Extensions/js/extensionsService.js:207:40
+OpenExtensionPrefsAsync/<@resource:///org/gnome/Shell/Extensions/js/extensionsService.js:122:28
+asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:132:13
+run@resource:///org/gnome/Shell/Extensions/js/dbusService.js:175:20
+main@resource:///org/gnome/Shell/Extensions/js/main.js:19:13
+run@resource:///org/gnome/gjs/modules/script/package.js:222:19
+start@resource:///org/gnome/gjs/modules/script/package.js:206:5
+@/usr/share/gnome-shell/org.gnome.Shell.Extensions:1:17
+```
